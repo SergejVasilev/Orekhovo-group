@@ -1,7 +1,6 @@
 #pragma once
 #include <iostream>
 using namespace std;
-double a, b;
 double SUM(double a, double b)
 {
 	double res = a + b;
