@@ -1,22 +1,28 @@
+#pragma once
 #include <iostream>
 using namespace std;
-void SUM(int a, int b)
+int SUM(int a, int b)
 {
-	int sum = a + b;
-	cout << sum << endl;
+	int res = a + b;
+	cout << res << endl;
+	return res;
 }
-void RAZN(int a, int b)
+
+int RAZN(int a, int b)
 {
-	int sum = a - b;
-	cout << sum << endl;
+	int res = a - b;
+	cout << res << endl;
+	return res;
 }
-void UMN(int a, int b)
+int UMN(int a, int b)
 {
-	int sum = a * b;
-	cout << sum << endl;
+	int res = a * b;
+	cout << res << endl;
+	return res;
 }
-void DEL(int a, int b)
+double DEL(int a, int b)
 {
-	int sum = a / b;
-	cout << sum << endl;
+	int res = a / b;
+	cout << res << endl;
+	return res;
 }
