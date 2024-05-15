@@ -1,6 +1,6 @@
 #pragma once
 #include "Source1.cpp"
-void SUM(int a, int b);
-void RAZN(int a, int b);
-void UMN(int a, int b);
-void DEL(int a, int b);
+int SUM(int a, int b);
+int RAZN(int a, int b);
+int UMN(int a, int b);
+double DEL(int a, int b);
