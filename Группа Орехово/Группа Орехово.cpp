@@ -15,7 +15,7 @@ int main() //все тут
     h = GetStdHandle(STD_OUTPUT_HANDLE); //для цвета
 
     srand(time(NULL)); //рандомайзер
-    SetConsoleTextAttribute(h, 1 + rand() % 14); //изменение цвета
+    SetConsoleTextAttribute(h, 14); //изменение цвета
 
     cout << "\t|---------------------------|\n"; //вывод текста
     cout << "\t|           Меню            |\n"; //вывод текста
@@ -32,24 +32,24 @@ int main() //все тут
         double b = 0; //инициализация переменной
         char s = 0; //инициализация переменной
 
-        SetConsoleTextAttribute(h, 1 + rand() % 14); //изменение цвета
+        SetConsoleTextAttribute(h, 13); //изменение цвета
 
         cout << "Введите первое число: "; //вывод текста
         cin >> a; //первое число 
 
-        SetConsoleTextAttribute(h, 1 + rand() % 14); //изменение цвета
+        SetConsoleTextAttribute(h, 13); //изменение цвета
 
         cout << "Введите второе число: "; //вывод текста
         cin >> b; //второе число 
 
-        SetConsoleTextAttribute(h, 1 + rand() % 14); //изменение цвета
+        SetConsoleTextAttribute(h, 13); //изменение цвета
 
         cout << "Выберите оперцию представленную в меню: "; //вывод текста
         cin >> s; //что вы хотите сделать
 
         cout << "\n"; //отступ
 
-        SetConsoleTextAttribute(h, 1 + rand() % 14); //изменение цвета
+        SetConsoleTextAttribute(h, 12); //изменение цвета
 
         switch (s) //функция выбора
         {
@@ -80,7 +80,7 @@ int main() //все тут
             break; //прерывание функции
 
         default: //некоректный ввод
-            SetConsoleTextAttribute(h, 1 + rand() % 14); //изменение цвета
+            SetConsoleTextAttribute(h, 10); //изменение цвета
 
             cout << "\n\t|---------------------------|";   //вывод текста
             cout << "\n\t| Вы ввели НЕВЕРНЫЕ ДАННЫЕ! |";   //вывод текста
@@ -88,8 +88,8 @@ int main() //все тут
             cout << "\n\t|---------------------------|\n"; //вывод текста
 
             return 0; //завершение функции
-        }
-        SetConsoleTextAttribute(h, 15); //изменение цвета
+        }   
     }
+    SetConsoleTextAttribute(h, 15); //изменение цвета
     return 0; //завершение функции
 }
