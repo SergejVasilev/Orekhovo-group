@@ -11,10 +11,12 @@ int main()
 
     int a = 150;
     int b = 200;
-    int res;
+    char k;
+    // int res;
 
-    int k;
+   
     cout << "Введите числа которые хотите использовать: " << endl;
+    
     cin >> k;
     return 0; //добавил короче чето я Дамир
 }
