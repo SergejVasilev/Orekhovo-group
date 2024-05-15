@@ -65,6 +65,7 @@ int main()
             DEL(a, b);
             break;
 
+
         default:
             SetConsoleTextAttribute(h, 1 + rand() % 14);
             cout << "\n\t|---------------------------|";   //вывод текста
