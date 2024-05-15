@@ -13,11 +13,9 @@ int main() //все тут
 
     HANDLE h; //для цвета
     h = GetStdHandle(STD_OUTPUT_HANDLE); //для цвета
-
-    srand(time(NULL)); //рандомайзер
     SetConsoleTextAttribute(h, 14); //изменение цвета
 
-    menu(); // вызов меню. Автор Дамир.
+    menu(); // вызов меню. Автор Дамир
 
     while (true) //цикл
     {
@@ -26,7 +24,8 @@ int main() //все тут
         char s = 0; //инициализация переменной
 
         SetConsoleTextAttribute(h, 13); //изменение цвета
-
+        cout << "\n"; //отступ
+        cout << "\n"; //отступ
         cout << "Введите первое число: "; //вывод текста
         cin >> a; //первое число 
 
@@ -41,7 +40,6 @@ int main() //все тут
         cin >> s; //что вы хотите сделать
 
         cout << "\n"; //отступ
-
         SetConsoleTextAttribute(h, 12); //изменение цвета
 
         switch (s) //функция выбора
