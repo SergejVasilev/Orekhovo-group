@@ -1,6 +1,7 @@
 #pragma once
-#include "Source1.cpp"
-int SUM(int a, int b);
-int RAZN(int a, int b);
-int UMN(int a, int b);
-double DEL(int a, int b);
+#include <iostream>
+#include "RF.cpp"
+double SUM(double a, double b);
+double RAZN(double a, double b);
+double UMN(double a, double b);
+double DEL(double a, double b);
