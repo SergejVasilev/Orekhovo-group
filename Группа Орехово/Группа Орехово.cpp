@@ -85,8 +85,8 @@ int main() //все тут
             cout << "\n\t|---------------------------|\n"; //вывод текста
 
             return 0; //завершение функции
-        }
-        SetConsoleTextAttribute(h, 15); //изменение цвета
+        }   
     }
+    SetConsoleTextAttribute(h, 15); //изменение цвета
     return 0; //завершение функции
 }
