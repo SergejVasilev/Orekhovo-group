@@ -1,9 +1,8 @@
 #pragma once
 #include <iostream> 
-#include <windows.h>
 using namespace std;        //чтобы не писать std::
 
-
+// ______________________перечисление фунций_________________________
 
 void menu(); // меню 
 
