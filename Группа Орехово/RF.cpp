@@ -1,10 +1,17 @@
 #pragma once
-#include <iostream>
 
-using namespace std;
+#include <iostream>
+#include <windows.h>
+using namespace std;        //чтобы не писать std::
+
+
 
 double SUM(double x, double y)
 {
+	setlocale(LC_ALL, "Russian"); //
+	SetConsoleCP(1251);           //
+	SetConsoleOutputCP(1251);     //3 строки для русского языка
+
 	double res = x + y;
 	cout << "Рузультат сложения " << x << " и " << y << " = " << res << endl;
 	cout << "-----------------------------------------" << endl;

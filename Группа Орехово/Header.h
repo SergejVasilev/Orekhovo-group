@@ -1,3 +1,8 @@
+#pragma once
+#include <iostream> 
+#include <windows.h>
+using namespace std;        //чтобы не писать std::
+
 
 
 void menu(); // меню 
