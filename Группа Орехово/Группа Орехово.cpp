@@ -11,11 +11,11 @@ int main()
     SetConsoleCP(1251);           //
     SetConsoleOutputCP(1251);     //3 строки для русского языка
 
-    HANDLE h;
-    h = GetStdHandle(STD_OUTPUT_HANDLE);
+    HANDLE h; //для цвета
+    h = GetStdHandle(STD_OUTPUT_HANDLE); //для цвета
 
-    srand(time(NULL));
-    SetConsoleTextAttribute(h, 1 + rand() % 14);
+    srand(time(NULL)); //рандомайзер
+    SetConsoleTextAttribute(h, 1 + rand() % 14); //изименение цвета
 
     cout << "\t|---------------------------|\n"; //вывод текста
     cout << "\t|           Меню            |\n"; //вывод текста
@@ -28,18 +28,26 @@ int main()
     double a = 0; //инициализация переменной
     double b = 0; //инициализация переменной
     char s = 0; //инициализация переменной
-    SetConsoleTextAttribute(h, 1 + rand() % 14);
+
+    SetConsoleTextAttribute(h, 1 + rand() % 14); //изименение цвета
+
     cout << "Введите первое число: "; //вывод текста
     cin >> a; //первое число 
-    SetConsoleTextAttribute(h, 1 + rand() % 14);
+
+    SetConsoleTextAttribute(h, 1 + rand() % 14); //изименение цвета
+
     cout << "Введите второе число: "; //вывод текста
     cin >> b; //второе число 
-    SetConsoleTextAttribute(h, 1 + rand() % 14);
+
+    SetConsoleTextAttribute(h, 1 + rand() % 14); //изименение цвета
+
     cout << "Выберите оперцию представленную в меню: "; //вывод текста
     cin >> s; //что вы хотите сделать
 
     cout << "\n"; //отступ
-    SetConsoleTextAttribute(h, 1 + rand() % 14);
+
+    SetConsoleTextAttribute(h, 1 + rand() % 14); //изименение цвета
+
     switch (s)
     {
     case '1':
@@ -63,7 +71,8 @@ int main()
         break;
 
     default:
-        SetConsoleTextAttribute(h, 1 + rand() % 14);
+        SetConsoleTextAttribute(h, 1 + rand() % 14); //изименение цвета
+
         cout << "\n\t|---------------------------|";   //вывод текста
         cout << "\n\t| Вы ввели НЕВЕРНЫЕ ДАННЫЕ! |";   //вывод текста
         cout << "\n\t|     Вы виноваты сами!     |";   //вывод текста
@@ -71,6 +80,7 @@ int main()
 
         return 0; //завершение функции
     }
-    SetConsoleTextAttribute(h, 15);
+    SetConsoleTextAttribute(h, 15); //изименение цвета
+
     return 0; //добавил короче чето я Дамир
 }
