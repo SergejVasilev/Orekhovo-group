@@ -1,8 +1,9 @@
 #pragma once
 #include <iostream>
-//#include "RF.cpp"
+
 using namespace std;
-void menu(); // меню для 
+
+void menu(); // меню 
 
 double SUM(double x, double y);
 double RAZN(double x, double y);
@@ -15,7 +16,6 @@ double SUM(double x, double y)
 	cout << res << endl;
 	return res;
 }
-
 double RAZN(double x, double y)
 {
 	double res = x - y;
@@ -36,7 +36,7 @@ double DEL(double x, double y)
 }
 void menu()
 {
-cout << "\t|---------------------------|\n"; //вывод текста
+     cout << "\t|---------------------------|\n"; //вывод текста
 	cout << "\t|           Меню            |\n"; //вывод текста
 	cout << "\t|      1- сложение   +      |\n"; //вывод текста
 	cout << "\t|      2 - вычитание -      |\n"; //вывод текста
