@@ -1,6 +1,7 @@
 ﻿#include <iostream>         //
 #include <windows.h>        //подключение библиотек
 #include "Header.h"
+//#include "RF.cpp"
 
 using namespace std;        //чтобы не писать std::
 
@@ -26,16 +27,16 @@ int main()
     
     switch (s)
     {
-    case'1':
+    case '1':
 
         break;
-    case'2':
+    case '2':
 
         break;
-    case'3':
+    case '3':
 
         break;
-    case'4':
+    case '4':
 
         break;
     default:
