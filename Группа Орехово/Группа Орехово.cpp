@@ -82,5 +82,5 @@ int main()
     }
     SetConsoleTextAttribute(h, 15); //изименение цвета
 
-    return 0; //добавил короче чето я Дамир
+    return 0; //завершение функции
 }
