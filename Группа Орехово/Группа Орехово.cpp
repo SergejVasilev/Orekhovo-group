@@ -7,6 +7,7 @@ int main()
     setlocale(LC_ALL, "Russian");   // подключение русского языка
     std::cout << "Hello World!\n";
     cout << "всем хай от Таня.И.А" << endl; //мой комент
+    cout << "Всем привет, от Артёма П." << endl; //мой комент
 }
 
 
