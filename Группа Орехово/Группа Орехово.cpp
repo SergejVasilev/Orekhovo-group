@@ -7,6 +7,8 @@ using namespace std;        //чтобы не писать std::
 
 int main() //все тут
 {
+    
+    
     setlocale(LC_ALL, "Russian"); //
     SetConsoleCP(1251);           //
     SetConsoleOutputCP(1251);     //3 строки для русского языка
