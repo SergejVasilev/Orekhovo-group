@@ -6,7 +6,7 @@ using namespace std;
 double SUM(double x, double y)
 {
 	double res = x + y;
-	cout << res << endl;
+	cout << "Рузультат сложения " << x << " и " << y << res << endl;
 	cout << "-----------------------------------------" << endl;
 	return res;
 }
@@ -14,6 +14,7 @@ double RAZN(double x, double y)
 {
 	double res = x - y;
 	cout << res << endl;
+	cout << "Рузультат вычитания " << x << " из " << y << res << endl;
 	cout << "-----------------------------------------" << endl;
 	return res;
 }
@@ -21,6 +22,7 @@ double UMN(double x, double y)
 {
 	double res = x * y;
 	cout << res << endl;
+	cout << "Рузультат умножения " << x << " и " << y << res << endl;
 	cout << "-----------------------------------------" << endl;
 	return res;
 }
@@ -28,6 +30,7 @@ double DEL(double x, double y)
 {
 	double res = x / y;
 	cout << res << endl;
+	cout << "Рузультат деления " << x << " и " << y << res << endl;
 	cout << "-----------------------------------------" << endl;
 	return res;
 }
