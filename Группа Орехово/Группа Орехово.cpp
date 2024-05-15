@@ -1,7 +1,7 @@
 ﻿#include <iostream>         //
 #include <windows.h>        //подключение библиотек
-//#include "Header.h"
-#include "RF.cpp"
+#include "Header.h"
+//#include "RF.cpp"
 
 using namespace std;        //чтобы не писать std::
 
@@ -14,10 +14,6 @@ int main()
     SetConsoleCP(1251);           //
     SetConsoleOutputCP(1251);     //3 строки для русского языка
 
-    double a = 0;
-    double b = 0;
-    char s = 0;
-    
     cout << "|-------------------------|\n"; //вывод текста
     cout << "|           Меню          |\n"; //вывод текста
     cout << "|      1 - сложение +     |\n"; //вывод текста
@@ -25,9 +21,14 @@ int main()
     cout << "|     3  - умножение *    |\n"; //вывод текста
     cout << "|      4 - деление /      |\n"; //вывод текста
     cout << "|-------------------------|\n"; //вывод текста
-    cin >> a;
-    cin >> b; 
-    cin >> s;
+    
+    int a = 0;
+    int b = 0;
+    int s = 0;
+    cin >> a;//первое число 
+    cin >> b;//второе чесло число  
+    cin >> s;//что вы хотите сделать
+
     switch (s)
     {
     case '1':
@@ -43,10 +44,13 @@ int main()
 
         break;
     default:
-        cout << "\n вы вели не известную команду\n";
+        cout << "\n  Вы ввели НЕВЕРНЫЕ ДАННЫЕ! \n";
+        cout << "\n      Вы виноваты сами! \n";
+        cout << "\n|---------------------------| \n";
+
+        return 0; //завершение функции
     }
 
-   
 
 
     return 0; //добавил короче чето я Дамир
