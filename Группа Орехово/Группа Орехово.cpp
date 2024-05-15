@@ -38,13 +38,13 @@ int main()
     switch (s)
     {
     case '1':
-      
+        SUM(a, b);
         break;
     case '2':
-
+        (a, b);
         break;
     case '3':
-
+        (a, b);
         break;
     case '4':
 
