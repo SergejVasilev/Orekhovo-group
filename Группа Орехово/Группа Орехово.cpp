@@ -5,7 +5,7 @@
 
 using namespace std;        //чтобы не писать std::
 
-int main()
+int main() //все тут
 {
     setlocale(LC_ALL, "Russian"); //
     SetConsoleCP(1251);           //
@@ -48,29 +48,29 @@ int main()
 
     SetConsoleTextAttribute(h, 1 + rand() % 14); //изименение цвета
 
-    switch (s)
+    switch (s) //функция выбора
     {
-    case '1':
-        cout << "Ответ: ";
-        SUM(a, b);
-        break;
+    case '1': //если выбрал 1
+        cout << "Ответ: "; //вывод текста
+        SUM(a, b); //процесс складывания
+        break; //прерывание функции
 
-    case '2':
-        cout << "Ответ: ";
-        RAZN(a, b);
-        break;
+    case '2': //если выбрал 2
+        cout << "Ответ: "; //вывод текста
+        RAZN(a, b); //процесс разности
+        break; //прерывание функции
 
-    case '3':
-        cout << "Ответ: ";
-        UMN(a, b);
-        break;
+    case '3': //если выбрал 3
+        cout << "Ответ: "; //вывод текста
+        UMN(a, b); //процесс умножения
+        break; //прерывание функции
 
-    case '4':
-        cout << "Ответ: ";
-        DEL(a, b);
-        break;
+    case '4': //если выбрал 4
+        cout << "Ответ: "; //вывод текста
+        DEL(a, b); //процесс деления
+        break; //прерывание функции
 
-    default:
+    default: //некоректный ввод
         SetConsoleTextAttribute(h, 1 + rand() % 14); //изименение цвета
 
         cout << "\n\t|---------------------------|";   //вывод текста
