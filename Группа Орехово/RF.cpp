@@ -1,5 +1,6 @@
 #pragma once
 #include <iostream>
+
 using namespace std;        //чтобы не писать std::
 
 double SUM(double x, double y)
