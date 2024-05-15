@@ -17,6 +17,9 @@ int main()
     int res;
 
     int k;
+    int k = a + b;
+    int k = a * b;
+    int k = a / b;
     cout << "Введите числа которые хотите использовать: " << endl;
     cin >> k;
     return 0; //добавил короче чето я Дамир
