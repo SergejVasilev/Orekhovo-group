@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="FR.cpp" />
     <ClCompile Include="Группа Орехово.cpp" />
   </ItemGroup>
   <ItemGroup>
