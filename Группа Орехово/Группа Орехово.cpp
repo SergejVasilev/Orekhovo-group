@@ -1,6 +1,7 @@
 ﻿#include <iostream>         //
 #include <windows.h>        //подключение библиотек
-#include "Header.h"
+//#include "Header.h"
+#include "RF.cpp"
 
 using namespace std;        //чтобы не писать std::
 
@@ -10,9 +11,9 @@ int main()
     SetConsoleCP(1251);           //
     SetConsoleOutputCP(1251);     //3 строки для русского языка
 
-    int a = 0;
-    int b = 0;
-    int s = 0;
+    double a = 0;
+    double b = 0;
+    char s = 0;
     cin >> a;//первое чесло 
     cin >> b;//второе чесло чесло  
     cin >> s;//что вы хотите сделать
@@ -26,16 +27,16 @@ int main()
     
     switch (s)
     {
-    case'1':
+    case '1':
 
         break;
-    case'2':
+    case '2':
 
         break;
-    case'3':
+    case '3':
 
         break;
-    case'4':
+    case '4':
 
         break;
     default:
