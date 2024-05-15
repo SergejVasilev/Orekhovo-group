@@ -3,6 +3,7 @@
 
 using namespace std;        //чтобы не писать std::
 
+
 double SUM(double x, double y)
 {
 	double res = x + y;
