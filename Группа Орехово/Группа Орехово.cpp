@@ -30,7 +30,7 @@ int main()
     switch (s)
     {
     case '1':
-
+        
         break;
     case '2':
 
