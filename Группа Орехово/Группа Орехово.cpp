@@ -1,7 +1,7 @@
 ﻿#include <iostream>         //
 #include <windows.h>        //подключение библиотек
-//#include "Header.h"
-#include "RF.cpp"
+#include "Header.h"
+//#include "RF.cpp"
 
 using namespace std;        //чтобы не писать std::
 
@@ -11,12 +11,12 @@ int main()
     SetConsoleCP(1251);           //
     SetConsoleOutputCP(1251);     //3 строки для русского языка
 
-    double a = 0;
-    double b = 0;
+    //double a = 0;
+    //double b = 0;
     char s = 0;
-    cin >> a;//первое чесло 
-    cin >> b;//второе чесло чесло  
-    cin >> s;//что вы хотите сделать
+    //cin >> a;//первое чесло 
+    //cin >> b;//второе чесло чесло  
+    //cin >> s;//что вы хотите сделать
     cout << "|-------------------------|\n"; //вывод текста
     cout << "|           Меню          |\n"; //вывод текста
     cout << "|      1 - сложение +     |\n"; //вывод текста
