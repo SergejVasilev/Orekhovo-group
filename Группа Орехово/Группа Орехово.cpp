@@ -6,10 +6,11 @@ using namespace std;        //чтобы не писать std::
 
 int main()
 {
+    
     setlocale(LC_ALL, "Russian"); //
     SetConsoleCP(1251);           //
     SetConsoleOutputCP(1251);     //3 строки для русского языка
-
+  
     int a = 0;
     int b = 0;
     int s = 0;
@@ -26,16 +27,16 @@ int main()
     
     switch (s)
     {
-    case'1':
+    case 1:
+       
+        break;
+    case 2:
 
         break;
-    case'2':
+    case 3:
 
         break;
-    case'3':
-
-        break;
-    case'4':
+    case 4:
 
         break;
     default:
