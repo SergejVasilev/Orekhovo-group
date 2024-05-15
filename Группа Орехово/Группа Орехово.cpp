@@ -19,9 +19,9 @@ int main()
     cout << "|      4 - деление /      |\n"; //вывод текста
     cout << "|-------------------------|\n"; //вывод текста
     
-    int a = 0;
-    int b = 0;
-    int s = 0;
+    double a = 0;
+    double b = 0;
+    char s = 0;
     cin >> a;//первое число 
     cin >> b;//второе чесло число  
     cin >> s;//что вы хотите сделать
@@ -29,16 +29,16 @@ int main()
     switch (s)
     {
     case '1':
-
+        SUM(a, b);
         break;
     case '2':
-
+        RAZN(a, b);
         break;
     case '3':
-
+        UMN(a, b);
         break;
     case '4':
-
+        DEL(a, b);
         break;
     default:
         cout << "\n  Вы ввели НЕВЕРНЫЕ ДАННЫЕ! \n";
