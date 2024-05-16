@@ -1,42 +1,42 @@
 #pragma once
-#include <iostream> 
+#include <iostream> //подключаем библиотеку ввода -вывода
 
 
-using namespace std;
+using namespace std; // подключаем пространства имен
 
-double SUM(double x, double y)
+double SUM(double x, double y)//функция сложения
 {
 	double res = x + y;
-	cout << "Рузультат сложения " << x << " и " << y << " = " << res << endl;
+	cout << "Результат сложения " << x << " и " << y << " = " << res << endl;
 	cout << "-----------------------------------------" << endl;
 	return res;
 }
-double RAZN(double x, double y)
+double RAZN(double x, double y)//функция вычитания
 {
 	double res = x - y;
 	cout << res << endl;
-	cout << "Рузультат вычитания " << x << " из " << y << " = " << res << endl;
+	cout << "Результат вычитания " << x << " из " << y << " = " << res << endl;
 	cout << "-----------------------------------------" << endl;
 	return res;
 }
-double UMN(double x, double y)
+double UMN(double x, double y)//функция умножения
 {
 	double res = x * y;
 	cout << res << endl;
-	cout << "Рузультат умножения " << x << " на " << y << " = " << res << endl;
+	cout << "Результат умножения " << x << " на " << y << " = " << res << endl;
 	cout << "-----------------------------------------" << endl;
 	return res;
 }
-double DEL(double x, double y)
+double DEL(double x, double y)//функция деления
 {
 	double res = x / y;
 	cout << res << endl;
-	cout << "Рузультат деления " << x << " на " << y << " = " << res << endl;
+	cout << "Результат деления " << x << " на " << y << " = " << res << endl;
 	cout << "-----------------------------------------" << endl;
 	return res;
 }
 
-void menu()
+void menu() //функция вывода меню
 {
 	cout << "\t|---------------------------|\n"; //вывод текста
 	cout << "\t|           Меню            |\n"; //вывод текста
