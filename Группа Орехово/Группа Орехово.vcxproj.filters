@@ -18,7 +18,7 @@
     <ClCompile Include="Группа Орехово.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="RF.cpp">
+    <ClCompile Include="FR.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
