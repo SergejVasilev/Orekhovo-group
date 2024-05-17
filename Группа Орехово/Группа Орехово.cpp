@@ -15,6 +15,8 @@ int main() //все тут
     h = GetStdHandle(STD_OUTPUT_HANDLE); //для цвета
     SetConsoleTextAttribute(h, 14); //изменение цвета
 
+    cout << "\tЭто программа - калькулятор " << endl << endl; //вывод текста/Еремеев Сергей)
+
     menu(); // вызов меню. Автор Дамир
 
     while (true) //цикл
